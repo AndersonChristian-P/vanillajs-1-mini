@@ -25,5 +25,6 @@ let selectTheme = theme => {
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].className = theme;
   }
-}
+} // we loop because we have multiple button tags
 
+// .className sets the class name to the argument passed through as the parameter theme
